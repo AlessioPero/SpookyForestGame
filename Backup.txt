@@ -1,0 +1,639 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.WorldDataLayers Name=WorldDataLayers Archetype=/Script/Engine.WorldDataLayers'/Script/Engine.Default__WorldDataLayers' ActorFolderPath=None
+         ActorLabel="WorldDataLayers"
+      End Actor
+      Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248 Archetype=/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=/Script/Engine.BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0' ExportPath=/Script/Engine.BrushComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.BrushComponent0"'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.BrushComponent0.BodySetup_0"'
+            End Object
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_7" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.CubeBuilder_7"'
+         End Object
+         Begin Brush Name=Model_1
+         End Brush
+         Begin Object Name="BrushComponent0" ExportPath=/Script/Engine.BrushComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.BrushComponent0"'
+            Begin Object Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.BrushComponent0.BodySetup_0"'
+               AggGeom=(ConvexElems=((VertexData=((X=-18811.279297,Y=15436.666992,Z=-2327.610107),(X=-18811.279297,Y=15436.666992,Z=2327.610107),(X=-18811.279297,Y=-15436.666992,Z=2327.610107),(X=-18811.279297,Y=-15436.666992,Z=-2327.610107),(X=18811.279297,Y=15436.666992,Z=-2327.610107),(X=18811.279297,Y=15436.666992,Z=2327.610107),(X=18811.279297,Y=-15436.666992,Z=-2327.610107),(X=18811.279297,Y=-15436.666992,Z=2327.610107)),IndexData=(5,4,1,0,2,1,0,1,4,3,0,4,3,2,0,6,3,4,6,2,3,5,1,2,5,6,4,7,5,2,7,6,5,7,2,6),ElemBox=(Min=(X=-18811.279297,Y=-15436.666992,Z=-2327.610107),Max=(X=18811.279297,Y=15436.666992,Z=2327.610107),IsValid=True))))
+               bGenerateMirroredCollision=False
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush=/Script/Engine.Model'"Model_1"'
+            BrushBodySetup=/Script/Engine.BodySetup'"BodySetup_0"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=787.000000,Y=-5433.000000,Z=2213.000000)
+         End Object
+         Begin Object Name="CubeBuilder_7" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7BFBB01_2008044248.CubeBuilder_7"'
+            X=37622.558594
+            Y=30873.333984
+            Z=4655.220215
+            Vertices(0)=(X=-18811.279297,Y=-15436.666992,Z=-2327.610107)
+            Vertices(1)=(X=-18811.279297,Y=-15436.666992,Z=2327.610107)
+            Vertices(2)=(X=-18811.279297,Y=15436.666992,Z=-2327.610107)
+            Vertices(3)=(X=-18811.279297,Y=15436.666992,Z=2327.610107)
+            Vertices(4)=(X=18811.279297,Y=-15436.666992,Z=-2327.610107)
+            Vertices(5)=(X=18811.279297,Y=-15436.666992,Z=2327.610107)
+            Vertices(6)=(X=18811.279297,Y=15436.666992,Z=-2327.610107)
+            Vertices(7)=(X=18811.279297,Y=15436.666992,Z=2327.610107)
+            Polys(0)=(VertexIndices=(0,1,3,2),Direction=1)
+            Polys(1)=(VertexIndices=(2,3,7,6),Direction=1)
+            Polys(2)=(VertexIndices=(6,7,5,4),Direction=1)
+            Polys(3)=(VertexIndices=(4,5,1,0),Direction=1)
+            Polys(4)=(VertexIndices=(3,1,5,7),Direction=1)
+            Polys(5)=(VertexIndices=(0,2,6,4),Direction=1)
+            Layer="Cube"
+         End Object
+         Settings=(bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True,AutoExposureMinBrightness=0.400000,AutoExposureMaxBrightness=0.400000)
+         BlendWeight=0.496000
+         BrushType=Brush_Add
+         Begin Brush Name=Model_1
+            Begin PolyList
+               Begin Polygon
+                  Origin   -18811.279297,-15436.666992,-02327.610107
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -18811.279297,-15436.666992,-02327.610107
+                  Vertex   -18811.279297,-15436.666992,+02327.610107
+                  Vertex   -18811.279297,+15436.666992,+02327.610107
+                  Vertex   -18811.279297,+15436.666992,-02327.610107
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,+15436.666992,-02327.610107
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00001.000000,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -18811.279297,+15436.666992,-02327.610107
+                  Vertex   -18811.279297,+15436.666992,+02327.610107
+                  Vertex   +18811.279297,+15436.666992,+02327.610107
+                  Vertex   +18811.279297,+15436.666992,-02327.610107
+               End Polygon
+               Begin Polygon
+                  Origin   +18811.279297,+15436.666992,-02327.610107
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +18811.279297,+15436.666992,-02327.610107
+                  Vertex   +18811.279297,+15436.666992,+02327.610107
+                  Vertex   +18811.279297,-15436.666992,+02327.610107
+                  Vertex   +18811.279297,-15436.666992,-02327.610107
+               End Polygon
+               Begin Polygon
+                  Origin   +18811.279297,-15436.666992,-02327.610107
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00001.000000,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +18811.279297,-15436.666992,-02327.610107
+                  Vertex   +18811.279297,-15436.666992,+02327.610107
+                  Vertex   -18811.279297,-15436.666992,+02327.610107
+                  Vertex   -18811.279297,-15436.666992,-02327.610107
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,+15436.666992,+02327.610107
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00001.000000,+00000.000000
+                  Vertex   -18811.279297,+15436.666992,+02327.610107
+                  Vertex   -18811.279297,-15436.666992,+02327.610107
+                  Vertex   +18811.279297,-15436.666992,+02327.610107
+                  Vertex   +18811.279297,+15436.666992,+02327.610107
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,-15436.666992,-02327.610107
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00001.000000,+00000.000000
+                  Vertex   -18811.279297,-15436.666992,-02327.610107
+                  Vertex   -18811.279297,+15436.666992,-02327.610107
+                  Vertex   +18811.279297,+15436.666992,-02327.610107
+                  Vertex   +18811.279297,-15436.666992,-02327.610107
+               End Polygon
+            End PolyList
+         End Brush
+         Brush=/Script/Engine.Model'"Model_1"'
+         BrushComponent="BrushComponent0"
+         BrushBuilder=/Script/UnrealEd.CubeBuilder'"CubeBuilder_7"'
+         bHidden=False
+         RootComponent="BrushComponent0"
+         ActorLabel="PostProcessVolume"
+         bIsSpatiallyLoaded=False
+      End Actor
+      Begin Actor Class=/Script/Engine.ExponentialHeightFog Name=ExponentialHeightFog_0 Archetype=/Script/Engine.ExponentialHeightFog'/Script/Engine.Default__ExponentialHeightFog' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=/Script/Engine.BillboardComponent'/Script/Engine.Default__ExponentialHeightFog:Sprite' ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.ExponentialHeightFog_0.Sprite"'
+         End Object
+         Begin Object Class=/Script/Engine.ExponentialHeightFogComponent Name="HeightFogComponent0" Archetype=/Script/Engine.ExponentialHeightFogComponent'/Script/Engine.Default__ExponentialHeightFog:HeightFogComponent0' ExportPath=/Script/Engine.ExponentialHeightFogComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.ExponentialHeightFog_0.HeightFogComponent0"'
+         End Object
+         Begin Object Name="Sprite" ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.ExponentialHeightFog_0.Sprite"'
+            AttachParent="HeightFogComponent0"
+         End Object
+         Begin Object Name="HeightFogComponent0" ExportPath=/Script/Engine.ExponentialHeightFogComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.ExponentialHeightFog_0.HeightFogComponent0"'
+            FogDensity=0.033600
+            FogInscatteringLuminance=(R=0.145833,G=0.145833,B=0.145833,A=1.000000)
+            RelativeLocation=(X=-5600.000000,Y=-50.000000,Z=6130.000000)
+         End Object
+         Component="HeightFogComponent0"
+         RootComponent="HeightFogComponent0"
+         ActorLabel="ExponentialHeightFog"
+      End Actor
+      Begin Actor Class=/Script/Engine.DirectionalLight Name=DirectionalLight_0 Archetype=/Script/Engine.DirectionalLight'/Script/Engine.Default__DirectionalLight' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.DirectionalLightComponent Name="LightComponent0" Archetype=/Script/Engine.DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0' ExportPath=/Script/Engine.DirectionalLightComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.DirectionalLight_0.LightComponent0"'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent0" Archetype=/Script/Engine.ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0' ExportPath=/Script/Engine.ArrowComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.DirectionalLight_0.ArrowComponent0"'
+         End Object
+         Begin Object Name="LightComponent0" ExportPath=/Script/Engine.DirectionalLightComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.DirectionalLight_0.LightComponent0"'
+            bEnableLightShaftOcclusion=True
+            DynamicShadowDistanceMovableLight=20000.000000
+            DistanceFieldShadowDistance=30000.000000
+            LightSourceAngle=0.735700
+            bUseTemperature=True
+            LightFunctionScale=(X=4235.453613,Y=4235.453613,Z=4235.453613)
+            LightFunctionFadeDistance=77466.187500
+            DisabledBrightness=0.696000
+            bUseRayTracedDistanceFieldShadows=False
+            Intensity=0.400000
+            LightColor=(B=255,G=222,R=223,A=255)
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=400.000000)
+            RelativeRotation=(Pitch=-48.809628,Yaw=-49.676274,Roll=68.082631)
+            Mobility=Movable
+         End Object
+         Begin Object Name="ArrowComponent0" ExportPath=/Script/Engine.ArrowComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.DirectionalLight_0.ArrowComponent0"'
+            ArrowColor=(B=255,G=222,R=223,A=255)
+            AttachParent="LightComponent0"
+         End Object
+         ArrowComponent="ArrowComponent0"
+         DirectionalLightComponent="LightComponent0"
+         LightComponent="LightComponent0"
+         SpawnCollisionHandlingMethod=AlwaysSpawn
+         RootComponent="LightComponent0"
+         ActorLabel="DirectionalLight"
+      End Actor
+      Begin Actor Class=/Script/Engine.WorldPartitionMiniMap Name=WorldPartitionMiniMap_0 Archetype=/Script/Engine.WorldPartitionMiniMap'/Script/Engine.Default__WorldPartitionMiniMap' ActorFolderPath=None
+         ActorLabel="WorldPartitionMiniMap0"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkyAtmosphere Name=SkyAtmosphere_0 Archetype=/Script/Engine.SkyAtmosphere'/Script/Engine.Default__SkyAtmosphere' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=/Script/Engine.BillboardComponent'/Script/Engine.Default__SkyAtmosphere:Sprite' ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.Sprite"'
+         End Object
+         Begin Object Class=/Script/Engine.SkyAtmosphereComponent Name="SkyAtmosphereComponent" Archetype=/Script/Engine.SkyAtmosphereComponent'/Script/Engine.Default__SkyAtmosphere:SkyAtmosphereComponent' ExportPath=/Script/Engine.SkyAtmosphereComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.SkyAtmosphereComponent"'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent" Archetype=/Script/Engine.ArrowComponent'/Script/Engine.Default__SkyAtmosphere:ArrowComponent' ExportPath=/Script/Engine.ArrowComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.ArrowComponent"'
+         End Object
+         Begin Object Name="Sprite" ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.Sprite"'
+            AttachParent="SkyAtmosphereComponent"
+         End Object
+         Begin Object Name="SkyAtmosphereComponent" ExportPath=/Script/Engine.SkyAtmosphereComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.SkyAtmosphereComponent"'
+            bStaticLightingBuiltGUID=5C29660645653F3BF77E1AB70DAB0AC0
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=500.000000)
+         End Object
+         Begin Object Name="ArrowComponent" ExportPath=/Script/Engine.ArrowComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyAtmosphere_0.ArrowComponent"'
+            AttachParent="SkyAtmosphereComponent"
+         End Object
+         SkyAtmosphereComponent="SkyAtmosphereComponent"
+         RootComponent="SkyAtmosphereComponent"
+         ActorLabel="SkyAtmosphere"
+      End Actor
+      Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104 Archetype=/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=/Script/Engine.BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0' ExportPath=/Script/Engine.BrushComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.BrushComponent0"'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.BrushComponent0.BodySetup_0"'
+            End Object
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_7" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.CubeBuilder_7"'
+         End Object
+         Begin Brush Name=Model_1
+         End Brush
+         Begin Object Name="BrushComponent0" ExportPath=/Script/Engine.BrushComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.BrushComponent0"'
+            Begin Object Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.BrushComponent0.BodySetup_0"'
+               AggGeom=(ConvexElems=((VertexData=((X=-18811.279297,Y=15436.666992,Z=-1907.203125),(X=-18811.279297,Y=15436.666992,Z=1907.203125),(X=-18811.279297,Y=-15436.666992,Z=1907.203125),(X=-18811.279297,Y=-15436.666992,Z=-1907.203125),(X=18811.279297,Y=15436.666992,Z=-1907.203125),(X=18811.279297,Y=15436.666992,Z=1907.203125),(X=18811.279297,Y=-15436.666992,Z=-1907.203125),(X=18811.279297,Y=-15436.666992,Z=1907.203125)),IndexData=(5,4,1,0,2,1,0,1,4,3,0,4,3,2,0,6,3,4,6,2,3,5,1,2,5,6,4,7,5,2,7,6,5,7,2,6),ElemBox=(Min=(X=-18811.279297,Y=-15436.666992,Z=-1907.203125),Max=(X=18811.279297,Y=15436.666992,Z=1907.203125),IsValid=True))))
+               bGenerateMirroredCollision=False
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush=/Script/Engine.Model'"Model_1"'
+            BrushBodySetup=/Script/Engine.BodySetup'"BodySetup_0"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=787.000000,Y=23606.000000,Z=751.000000)
+         End Object
+         Begin Object Name="CubeBuilder_7" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.PostProcessVolume_UAID_5CF3706107B7F7BB01_1425649104.CubeBuilder_7"'
+            X=37622.558594
+            Y=30873.333984
+            Z=3814.406250
+            Vertices(0)=(X=-18811.279297,Y=-15436.666992,Z=-1907.203125)
+            Vertices(1)=(X=-18811.279297,Y=-15436.666992,Z=1907.203125)
+            Vertices(2)=(X=-18811.279297,Y=15436.666992,Z=-1907.203125)
+            Vertices(3)=(X=-18811.279297,Y=15436.666992,Z=1907.203125)
+            Vertices(4)=(X=18811.279297,Y=-15436.666992,Z=-1907.203125)
+            Vertices(5)=(X=18811.279297,Y=-15436.666992,Z=1907.203125)
+            Vertices(6)=(X=18811.279297,Y=15436.666992,Z=-1907.203125)
+            Vertices(7)=(X=18811.279297,Y=15436.666992,Z=1907.203125)
+            Polys(0)=(VertexIndices=(0,1,3,2),Direction=1)
+            Polys(1)=(VertexIndices=(2,3,7,6),Direction=1)
+            Polys(2)=(VertexIndices=(6,7,5,4),Direction=1)
+            Polys(3)=(VertexIndices=(4,5,1,0),Direction=1)
+            Polys(4)=(VertexIndices=(3,1,5,7),Direction=1)
+            Polys(5)=(VertexIndices=(0,2,6,4),Direction=1)
+            Layer="Cube"
+         End Object
+         Settings=(bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True)
+         Priority=1.000000
+         BlendRadius=1684.000122
+         BlendWeight=0.672000
+         BrushType=Brush_Add
+         Begin Brush Name=Model_1
+            Begin PolyList
+               Begin Polygon
+                  Origin   -18811.279297,-15436.666992,-01907.203125
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -18811.279297,-15436.666992,-01907.203125
+                  Vertex   -18811.279297,-15436.666992,+01907.203125
+                  Vertex   -18811.279297,+15436.666992,+01907.203125
+                  Vertex   -18811.279297,+15436.666992,-01907.203125
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,+15436.666992,-01907.203125
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00001.000000,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -18811.279297,+15436.666992,-01907.203125
+                  Vertex   -18811.279297,+15436.666992,+01907.203125
+                  Vertex   +18811.279297,+15436.666992,+01907.203125
+                  Vertex   +18811.279297,+15436.666992,-01907.203125
+               End Polygon
+               Begin Polygon
+                  Origin   +18811.279297,+15436.666992,-01907.203125
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +18811.279297,+15436.666992,-01907.203125
+                  Vertex   +18811.279297,+15436.666992,+01907.203125
+                  Vertex   +18811.279297,-15436.666992,+01907.203125
+                  Vertex   +18811.279297,-15436.666992,-01907.203125
+               End Polygon
+               Begin Polygon
+                  Origin   +18811.279297,-15436.666992,-01907.203125
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00001.000000,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +18811.279297,-15436.666992,-01907.203125
+                  Vertex   +18811.279297,-15436.666992,+01907.203125
+                  Vertex   -18811.279297,-15436.666992,+01907.203125
+                  Vertex   -18811.279297,-15436.666992,-01907.203125
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,+15436.666992,+01907.203125
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00001.000000,+00000.000000
+                  Vertex   -18811.279297,+15436.666992,+01907.203125
+                  Vertex   -18811.279297,-15436.666992,+01907.203125
+                  Vertex   +18811.279297,-15436.666992,+01907.203125
+                  Vertex   +18811.279297,+15436.666992,+01907.203125
+               End Polygon
+               Begin Polygon
+                  Origin   -18811.279297,-15436.666992,-01907.203125
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00001.000000,+00000.000000
+                  Vertex   -18811.279297,-15436.666992,-01907.203125
+                  Vertex   -18811.279297,+15436.666992,-01907.203125
+                  Vertex   +18811.279297,+15436.666992,-01907.203125
+                  Vertex   +18811.279297,-15436.666992,-01907.203125
+               End Polygon
+            End PolyList
+         End Brush
+         Brush=/Script/Engine.Model'"Model_1"'
+         BrushComponent="BrushComponent0"
+         BrushBuilder=/Script/UnrealEd.CubeBuilder'"CubeBuilder_7"'
+         bHidden=False
+         SpawnCollisionHandlingMethod=AlwaysSpawn
+         RootComponent="BrushComponent0"
+         ActorLabel="PostProcessVolume2"
+         bIsSpatiallyLoaded=False
+      End Actor
+      Begin Actor Class=/Script/Engine.SkyLight Name=SkyLight_0 Archetype=/Script/Engine.SkyLight'/Script/Engine.Default__SkyLight' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=/Script/Engine.BillboardComponent'/Script/Engine.Default__SkyLight:Sprite' ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyLight_0.Sprite"'
+         End Object
+         Begin Object Class=/Script/Engine.SkyLightComponent Name="SkyLightComponent0" Archetype=/Script/Engine.SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0' ExportPath=/Script/Engine.SkyLightComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyLight_0.SkyLightComponent0"'
+         End Object
+         Begin Object Name="Sprite" ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyLight_0.Sprite"'
+         End Object
+         Begin Object Name="SkyLightComponent0" ExportPath=/Script/Engine.SkyLightComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkyLight_0.SkyLightComponent0"'
+            bRealTimeCapture=True
+            Intensity=0.040000
+            LightColor=(B=255,G=241,R=235,A=255)
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=600.000000)
+            Mobility=Movable
+         End Object
+         LightComponent="SkyLightComponent0"
+         RootComponent="SkyLightComponent0"
+         ActorLabel="SkyLight"
+      End Actor
+      Begin Actor Class=/Script/Landscape.Landscape Name=Landscape_3 Archetype=/Script/Landscape.Landscape'/Script/Landscape.Default__Landscape' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SceneComponent Name="RootComponent0" Archetype=/Script/Engine.SceneComponent'/Script/Landscape.Default__Landscape:RootComponent0' ExportPath=/Script/Engine.SceneComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.Landscape_3.RootComponent0"'
+         End Object
+         Begin Object Name="RootComponent0" ExportPath=/Script/Engine.SceneComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.Landscape_3.RootComponent0"'
+            RelativeLocation=(X=-15000.000000,Y=-24000.000000,Z=0.000000)
+            RelativeScale3D=(X=110.000000,Y=109.999999,Z=109.999999)
+         End Object
+         bIncludeGridSizeInNameForLandscapeActors=True
+         bCanHaveLayersContent=True
+         LandscapeLayers(0)=(Guid=B1B204364743334E288534837D47A760,Name="Mountain")
+         LandscapeLayers(1)=(Guid=C549B681496836CB3603DC8FBC9787E9,Name="Main")
+         LandscapeGuid=874F9F8E4E7ACF79F76862B320E8CD16
+         TargetDisplayOrderList(0)=""
+         TargetDisplayOrderList(1)="__LANDSCAPE_VISIBILITY__"
+         TargetDisplayOrderList(2)="Grass"
+         TargetDisplayOrderList(3)="Rock"
+         TargetDisplayOrderList(4)="AutoMat"
+         TargetDisplayOrderList(5)="Path"
+         TargetDisplayOrderList(6)="GrassCorrupt"
+         TargetDisplayOrderList(7)="Material_Blend"
+         TargetDisplayOrder=UserSpecific
+         LandscapeMaterial=/Script/Engine.MaterialInstanceConstant'"/Game/AlessioPero/LandscapeMaterials/M_AutoMatLandscape_Inst.M_AutoMatLandscape_Inst"'
+         bHasLandscapeGrass=False
+         ReimportDestinationLayerGuid=C549B681496836CB3603DC8FBC9787E9
+         EditorLayerSettings(0)=(LayerInfoObj=/Script/Landscape.LandscapeLayerInfoObject'"/Game/AlessioPero/Pandoras_Jal_sharedassets/AutoMat_LayerInfo.AutoMat_LayerInfo"')
+         EditorLayerSettings(1)=(LayerInfoObj=/Script/Landscape.LandscapeLayerInfoObject'"/Game/AlessioPero/Pandoras_Jal_sharedassets/Path_LayerInfo.Path_LayerInfo"')
+         EditorLayerSettings(2)=(LayerInfoObj=/Script/Landscape.LandscapeLayerInfoObject'"/Game/AlessioPero/Pandoras_Jal_sharedassets/Rock_LayerInfo.Rock_LayerInfo"')
+         EditorLayerSettings(3)=(LayerInfoObj=/Script/Landscape.LandscapeLayerInfoObject'"/Game/AlessioPero/Pandoras_Jal_sharedassets/Grass_LayerInfo.Grass_LayerInfo"')
+         ComponentSizeQuads=30
+         SubsectionSizeQuads=15
+         NumSubsections=2
+         bHasLayersContent=True
+         GridSize=120
+         RootComponent="RootComponent0"
+         ActorLabel="Landscape2"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_1 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Lighting
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/EngineSky/SM_SkySphere.SM_SkySphere"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_A8F10585DE67499EA913B652DC4A955E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_37DD3B6C$2dD4A4$2d41C0$2dBCF6$2d32AE2029E647_CONSTRAINED_0000000000000080000000000000803F000000000000803F0000803FE24CA9997B8D383A984429295275520A00000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000001000000000000000000F03F000000000000F03F000000000000F03F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome"'
+            bEnableAutoLODGeneration=False
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeScale3D=(X=400.000000,Y=400.000000,Z=400.000000)
+            Mobility=Movable
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bEnableAutoLODGeneration=False
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_SkySphere"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_2 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Mappa_Little_One_Trasparente_Mat.Mappa_Little_One_Trasparente_Mat"'
+            RelativeLocation=(X=-2830.000000,Y=-1410.000000,Z=-283.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=40.000000,Roll=0.000000)
+            RelativeScale3D=(X=-771.500000,Y=-782.500000,Z=1.100000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="MapLayout"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_8 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni3.M_Divisioni3"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=-2190.000000,Y=-8440.000000,Z=-5820.000000)
+            RelativeScale3D=(X=119.500000,Y=257.500000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube7"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_4 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni2.M_Divisioni2"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=-11820.000000,Y=-11150.000000,Z=-5820.000000)
+            RelativeScale3D=(X=119.500000,Y=119.500000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube3"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_6 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni2.M_Divisioni2"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=-9900.000000,Y=-790.000000,Z=-5820.000000)
+            RelativeScale3D=(X=119.500000,Y=119.500000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube5"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_12 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"'
+            RelativeLocation=(X=-10540.000000,Y=-8180.000000,Z=0.000000)
+            RelativeScale3D=(X=16.000000,Y=16.000000,Z=16.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube9"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_UAID_1C697A9EA49615BB01_2046021334 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_UAID_1C697A9EA49615BB01_2046021334.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_UAID_1C697A9EA49615BB01_2046021334.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/UrbanCity/Models/CompletedBuildings/Building_6_01.Building_6_01"'
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000000817A10E04AF381AA9E42B89B3ADEF7F00000000010000000100000000000000010000000100000000000000000000000100000001000000400000000000000003000000000000000000F03F000000000000F03F000000000000F03F0000803F00000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0123456"
+            RelativeLocation=(X=7753.967028,Y=-11245.489893,Z=-0.006501)
+            RelativeRotation=(Pitch=0.000000,Yaw=-210.194370,Roll=0.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Building_6_01"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_3 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni.M_Divisioni"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=9610.000000,Y=-10910.000000,Z=-5820.000000)
+            RelativeScale3D=(X=119.500000,Y=119.500000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube2"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_10 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_10.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_10.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"'
+            RelativeLocation=(X=8780.000000,Y=-13170.000000,Z=-4960.000000)
+            RelativeScale3D=(X=-47.250000,Y=-47.250000,Z=-26.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube8"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_UAID_1C697A9EA49616BB01_1412840511 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_UAID_1C697A9EA49616BB01_1412840511.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_UAID_1C697A9EA49616BB01_1412840511.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/UrbanCity/Models/CompletedBuildings/Building_5_01.Building_5_01"'
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F0000000086D880BBD32B3849B072D16FD2A5980700000000010000000100000000000000010000000100000000000000000000000100000001000000400000000000000003000000000000000000F03F000000000000F03F000000000000F03F0000803F00000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_012345"
+            RelativeLocation=(X=11153.540913,Y=-13788.836100,Z=-11.864438)
+            RelativeRotation=(Pitch=0.000000,Yaw=-178.394911,Roll=0.000000)
+            RelativeScale3D=(X=0.649902,Y=0.528823,Z=0.940468)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Building_5_01"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SkeletalMeshActor_UAID_1C697A9EA49616BB01_1481613512 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=/Script/Engine.SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0' ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_UAID_1C697A9EA49616BB01_1481613512.SkeletalMeshComponent0"'
+         End Object
+         Begin Object Name="SkeletalMeshComponent0" ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_UAID_1C697A9EA49616BB01_1481613512.SkeletalMeshComponent0"'
+            SkeletalMesh=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            SkinnedAsset=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            RelativeLocation=(X=9180.519847,Y=-10270.158728,Z=-18.704711)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin2"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_5 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni.M_Divisioni"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=8160.000000,Y=-1760.000000,Z=-5820.000000)
+            RelativeScale3D=(X=119.500000,Y=119.500000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube4"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SkeletalMeshActor_2 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=/Script/Engine.SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0' ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0"'
+         End Object
+         Begin Object Name="SkeletalMeshComponent0" ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0"'
+            SkeletalMesh=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            SkinnedAsset=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            RelativeLocation=(X=9070.000000,Y=-9300.000000,Z=0.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin2"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_7 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor' ActorFolderPath=Development/Divisioni
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0"'
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0"'
+            StaticMesh=/Script/Engine.StaticMesh'"/Engine/BasicShapes/Cube.Cube"'
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_3DA2B3034DE303E801F0678FB0806296_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e1_09CD7DFE$2d9DF7$2d4BA9$2dBE66$2d23F27A9523F1_CONSTRAINED_2000000000000000000000080FFFFFFFF000000000000803F000000000000803F0000803F000000006B472650FE70304CAF051C71C2812FF000000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000002000000000000000000F03F000000000000F03F000000000000F03F0000004000000000050000004E6F6E65000C00000030000000803FFFFFFFFF0000803FFFFFFFFF000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ_0"
+            OverrideMaterials(0)=/Script/Engine.Material'"/Game/AlessioPero/Materiali/M_Divisioni1.M_Divisioni1"'
+            CanCharacterStepUpOn=ECB_No
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeLocation=(X=70.000000,Y=13750.000000,Z=-5820.000000)
+            RelativeScale3D=(X=144.500000,Y=203.250000,Z=119.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         bHidden=True
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Cube6"
+      End Actor
+      Begin Actor Class=/Script/Engine.TextRenderActor Name=TextRenderActor_1 Archetype=/Script/Engine.TextRenderActor'/Script/Engine.Default__TextRenderActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.TextRenderComponent Name="NewTextRenderComponent" Archetype=/Script/Engine.TextRenderComponent'/Script/Engine.Default__TextRenderActor:NewTextRenderComponent' ExportPath=/Script/Engine.TextRenderComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.TextRenderActor_1.NewTextRenderComponent"'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=/Script/Engine.BillboardComponent'/Script/Engine.Default__TextRenderActor:Sprite' ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.TextRenderActor_1.Sprite"'
+         End Object
+         Begin Object Name="NewTextRenderComponent" ExportPath=/Script/Engine.TextRenderComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.TextRenderActor_1.NewTextRenderComponent"'
+            Text=NSLOCTEXT("[52BD66F28CD5951F58BB19D57CCA0314]", "73A6E5E24B96D607B7004C8564A3C1FB", "Lake Cabin")
+            TextRenderColor=(B=91,G=0,R=255,A=255)
+            RelativeLocation=(X=-11360.000000,Y=-9110.000000,Z=350.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999999,Roll=0.000000)
+            RelativeScale3D=(X=18.000000,Y=18.000000,Z=18.000000)
+         End Object
+         Begin Object Name="Sprite" ExportPath=/Script/Engine.BillboardComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.TextRenderActor_1.Sprite"'
+            AttachParent="NewTextRenderComponent"
+         End Object
+         TextRender="NewTextRenderComponent"
+         RootComponent="NewTextRenderComponent"
+         ActorLabel="TextRenderActor"
+      End Actor
+      Begin Actor Class=/Game/LuigiSpiller/Blueprints/BP_Tree.BP_Tree_C Name=BP_Tree_C_3 Archetype=/Game/LuigiSpiller/Blueprints/BP_Tree.BP_Tree_C'/Game/LuigiSpiller/Blueprints/BP_Tree.Default__BP_Tree_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype=/Script/Engine.StaticMeshComponent'/Game/LuigiSpiller/Blueprints/BP_Tree.BP_Tree_C:StaticMesh_GEN_VARIABLE' ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.BP_Tree_C_3.StaticMesh"'
+         End Object
+         Begin Object Name="StaticMesh" ExportPath=/Script/Engine.StaticMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.BP_Tree_C_3.StaticMesh"'
+            RelativeLocation=(X=-1840.000000,Y=-7730.000000,Z=5330.000000)
+            RelativeScale3D=(X=-5.000000,Y=-5.000000,Z=-5.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         RootComponent="StaticMesh"
+         ActorLabel="BP_Tree"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SkeletalMeshActor_1 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=/Script/Engine.SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0' ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0"'
+         End Object
+         Begin Object Name="SkeletalMeshComponent0" ExportPath=/Script/Engine.SkeletalMeshComponent'"/Game/AlessioPero/Pandoras_Jal.Pandoras_Jal:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0"'
+            SkeletalMesh=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            SkinnedAsset=/Script/Engine.SkeletalMesh'"/Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin"'
+            RelativeLocation=(X=1070.000000,Y=15070.000000,Z=1.425637)
+            RelativeRotation=(Pitch=0.000000,Yaw=129.999999,Roll=0.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
